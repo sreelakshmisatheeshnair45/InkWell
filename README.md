@@ -1,14 +1,5 @@
-# ![RealWorld Example App](spring.png)
-
-> ### Spring Boot 3, Java 21 codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
-
-### [Demo](https://demo.realworld.io/)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
 
 This codebase was created to demonstrate a fully fledged fullstack application built with Spring Boot including CRUD operations, authentication, routing, pagination, and more.
-
-We've gone to great lengths to adhere to the Spring Boot community styleguides & best practices.
-
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
 
 # How it works
 
@@ -38,14 +29,4 @@ Here's the technologies used for the implementation:
  * __[modelmapper](https://modelmapper.org/)__ for the DTOs.
  * __[spring-arg-resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)__, for dynamic param filtering.
 
-# How do i run it?
-
-Here's the steps you need to make the project run:
-
-You'll need docker installed.
-
-* Clone this repo.
-* Run ``docker-compose up``.
-
-That's it :)
 
